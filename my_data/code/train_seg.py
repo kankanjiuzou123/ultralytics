@@ -4,4 +4,4 @@ from ultralytics import YOLO
 model = YOLO("yolov8n-seg.pt")  # load a pretrained model (recommended for training)
 
 # Train the model
-results = model.train(data="coco128-seg.yaml", epochs=100, imgsz=640)
+results = model.train(data="../cfg/coco128-seg.yaml", epochs=100, imgsz=640)

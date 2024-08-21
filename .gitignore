@@ -172,4 +172,5 @@ pnnx*
 calibration_*.npy
 
 *.Identifier
-
+baitiao/images/
+baitiao/labels/

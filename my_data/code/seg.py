@@ -7,8 +7,6 @@ model = YOLO('../weights/yolov8s-seg.pt')
 
 # Specify the input and output directories
 input_dir = '../coco128-seg/images/train2017'
-output_dir = '../coco128-seg/result_images'
-os.makedirs(output_dir, exist_ok=True)
 
 # Process each image in the input directory
 for img_file in os.listdir(input_dir):

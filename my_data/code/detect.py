@@ -13,6 +13,6 @@ for img_file in os.listdir(input_dir):
     if img_file.endswith(('png', 'jpg', 'jpeg', 'bmp', 'tiff')):
         img_path = os.path.join(input_dir, img_file)
         img = cv2.imread(img_path)
-        results = model(img,save=True)
+        results = model(img,save=True,save_frames=True)
 
 print("Batch processing completed.")

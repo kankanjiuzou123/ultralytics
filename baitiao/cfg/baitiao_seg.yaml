@@ -9,8 +9,8 @@
 
 # Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
 # path: ../coco128-seg/ # dataset root dir
-train: /home/wkc/project/ultralytics/baitiao/train_data # train images (relative to 'path') 128 images
-val: /home/wkc/project/ultralytics/baitiao/train_data # val images (relative to 'path') 128 images
+train: /home/wkc/project/ultralytics/baitiao/train_data/seg # train images (relative to 'path') 128 images
+val: /home/wkc/project/ultralytics/baitiao/train_data/seg # val images (relative to 'path') 128 images
 test: # test images (optional)
 
 # Classes

@@ -175,3 +175,5 @@ calibration_*.npy
 baitiao/images/
 baitiao/labels/
 baitiao/train_data/
+
+*.mp4
